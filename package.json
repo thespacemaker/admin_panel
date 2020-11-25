@@ -1,0 +1,16 @@
+{
+  "name": "@lux/base",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Lux - Administration Template",
+  "workspaces": [
+    "packages/vue",
+    "packages/starter"
+  ],
+  "scripts": {
+    "dev:vue": "cd packages/vue && npm run dev",
+    "dev:starter": "cd packages/starter && npm run dev",
+    "build:vue": "cd packages/vue && npm run build",
+    "build:starter": "cd packages/starter && npm run build"
+  }
+}
